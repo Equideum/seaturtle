@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655A38C71D93F82F00EBEF62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655A38C61D93F82F00EBEF62 /* LaunchScreen.storyboard */; };
+		7808DFA71AEEFBEF0092FCCA /* PSPDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7808DFA61AEEFBEF0092FCCA /* PSPDFKit.framework */; };
+		7808DFA91AEEFBF50092FCCA /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 7808DFA81AEEFBF50092FCCA /* Samples */; };
+		7808DFAA1AEEFC310092FCCA /* PSPDFKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7808DFA61AEEFBEF0092FCCA /* PSPDFKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78ADAC151AEE9C0700946186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ADAC141AEE9C0700946186 /* main.m */; };
+		78ADAC181AEE9C0700946186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ADAC171AEE9C0700946186 /* AppDelegate.m */; };
+		78ADAC1B1AEE9C0700946186 /* CustomPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ADAC1A1AEE9C0700946186 /* CustomPDFViewController.m */; };
+		78ADAC1E1AEE9C0700946186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ADAC1C1AEE9C0700946186 /* Main.storyboard */; };
+		78ADAC201AEE9C0700946186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ADAC1F1AEE9C0700946186 /* Images.xcassets */; };
+		B975BDE31F70145C002672A7 /* PSPDFKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B975BDE21F70145C002672A7 /* PSPDFKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9D59F3D1F701490003ABD57 /* PSPDFKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B975BDE21F70145C002672A7 /* PSPDFKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78ADAC3A1AEE9D5D00946186 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7808DFAA1AEEFC310092FCCA /* PSPDFKit.framework in Embed Frameworks */,
+				B975BDE31F70145C002672A7 /* PSPDFKitUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		655A38C61D93F82F00EBEF62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7808DFA61AEEFBEF0092FCCA /* PSPDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSPDFKit.framework; path = ../../PSPDFKit.framework; sourceTree = "<group>"; };
+		7808DFA81AEEFBF50092FCCA /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Samples; path = ../../Samples; sourceTree = "<group>"; };
+		78ADAC0F1AEE9C0700946186 /* PSPDFSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSPDFSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ADAC131AEE9C0700946186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78ADAC141AEE9C0700946186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78ADAC161AEE9C0700946186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78ADAC171AEE9C0700946186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78ADAC191AEE9C0700946186 /* CustomPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPDFViewController.h; sourceTree = "<group>"; };
+		78ADAC1A1AEE9C0700946186 /* CustomPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPDFViewController.m; sourceTree = "<group>"; };
+		78ADAC1D1AEE9C0700946186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78ADAC1F1AEE9C0700946186 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B975BDE21F70145C002672A7 /* PSPDFKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSPDFKitUI.framework; path = ../../PSPDFKitUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78ADAC0C1AEE9C0700946186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808DFA71AEEFBEF0092FCCA /* PSPDFKit.framework in Frameworks */,
+				B9D59F3D1F701490003ABD57 /* PSPDFKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78ADAC061AEE9C0700946186 = {
+			isa = PBXGroup;
+			children = (
+				78ADAC111AEE9C0700946186 /* PSPDFSimple */,
+				78ADAC101AEE9C0700946186 /* Products */,
+				B9D59F3C1F701490003ABD57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78ADAC101AEE9C0700946186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78ADAC0F1AEE9C0700946186 /* PSPDFSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78ADAC111AEE9C0700946186 /* PSPDFSimple */ = {
+			isa = PBXGroup;
+			children = (
+				78ADAC161AEE9C0700946186 /* AppDelegate.h */,
+				78ADAC171AEE9C0700946186 /* AppDelegate.m */,
+				78ADAC191AEE9C0700946186 /* CustomPDFViewController.h */,
+				78ADAC1A1AEE9C0700946186 /* CustomPDFViewController.m */,
+				78ADAC1C1AEE9C0700946186 /* Main.storyboard */,
+				655A38C61D93F82F00EBEF62 /* LaunchScreen.storyboard */,
+				78ADAC1F1AEE9C0700946186 /* Images.xcassets */,
+				7808DFA61AEEFBEF0092FCCA /* PSPDFKit.framework */,
+				B975BDE21F70145C002672A7 /* PSPDFKitUI.framework */,
+				7808DFA81AEEFBF50092FCCA /* Samples */,
+				78ADAC121AEE9C0700946186 /* Supporting Files */,
+			);
+			path = PSPDFSimple;
+			sourceTree = "<group>";
+		};
+		78ADAC121AEE9C0700946186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78ADAC131AEE9C0700946186 /* Info.plist */,
+				78ADAC141AEE9C0700946186 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9D59F3C1F701490003ABD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78ADAC0E1AEE9C0700946186 /* PSPDFSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78ADAC321AEE9C0700946186 /* Build configuration list for PBXNativeTarget "PSPDFSimple" */;
+			buildPhases = (
+				78ADAC0B1AEE9C0700946186 /* Sources */,
+				78ADAC0C1AEE9C0700946186 /* Frameworks */,
+				78ADAC0D1AEE9C0700946186 /* Resources */,
+				78ADAC3A1AEE9D5D00946186 /* Embed Frameworks */,
+				78ADAC3C1AEE9D6600946186 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSPDFSimple;
+			productName = PSPDFSimple;
+			productReference = 78ADAC0F1AEE9C0700946186 /* PSPDFSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78ADAC071AEE9C0700946186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "PSPDFKit GmbH";
+				TargetAttributes = {
+					78ADAC0E1AEE9C0700946186 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 78ADAC0A1AEE9C0700946186 /* Build configuration list for PBXProject "PSPDFSimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78ADAC061AEE9C0700946186;
+			productRefGroup = 78ADAC101AEE9C0700946186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78ADAC0E1AEE9C0700946186 /* PSPDFSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78ADAC0D1AEE9C0700946186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808DFA91AEEFBF50092FCCA /* Samples in Resources */,
+				655A38C71D93F82F00EBEF62 /* LaunchScreen.storyboard in Resources */,
+				78ADAC1E1AEE9C0700946186 /* Main.storyboard in Resources */,
+				78ADAC201AEE9C0700946186 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78ADAC3C1AEE9D6600946186 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/PSPDFKit.framework/strip-framework.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78ADAC0B1AEE9C0700946186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ADAC1B1AEE9C0700946186 /* CustomPDFViewController.m in Sources */,
+				78ADAC181AEE9C0700946186 /* AppDelegate.m in Sources */,
+				78ADAC151AEE9C0700946186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78ADAC1C1AEE9C0700946186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78ADAC1D1AEE9C0700946186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78ADAC301AEE9C0700946186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78ADAC311AEE9C0700946186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78ADAC331AEE9C0700946186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../,
+				);
+				INFOPLIST_FILE = PSPDFSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78ADAC341AEE9C0700946186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../,
+				);
+				INFOPLIST_FILE = PSPDFSimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78ADAC0A1AEE9C0700946186 /* Build configuration list for PBXProject "PSPDFSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ADAC301AEE9C0700946186 /* Debug */,
+				78ADAC311AEE9C0700946186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78ADAC321AEE9C0700946186 /* Build configuration list for PBXNativeTarget "PSPDFSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ADAC331AEE9C0700946186 /* Debug */,
+				78ADAC341AEE9C0700946186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78ADAC071AEE9C0700946186 /* Project object */;
+}

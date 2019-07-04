@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'PSPDFCatalog' target in the 'PSPDFCatalog' project
+//
+
+#ifdef __OBJC__
+
+@import UIKit;
+@import Foundation;
+@import PSPDFKitUI;
+@import PSPDFKit;
+
+#import "PSCAvailability.h"
+#import "PSCViewHelper.h"
+#import "UIColor+PSCDefaults.h"
+
+#endif
